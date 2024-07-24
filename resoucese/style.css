@@ -1,386 +1,202 @@
 /* ============================================================================
             Basic setup
      =========================================================================== */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-/* 	display:none; */
-}
-body{
- background-color:#f4f2f9 ;
-}
-@font-face {
-     src: url('molle.regular\ .woff') format('woff');
-     font-family: molle;}
- 
- ul li{
-     list-style: none;
-     
-
- }
- ul li a{
-     text-decoration: none;
-     color: bisque;
- }
- .ul-parent{
-     background-color: black;
- }
- 
- li{
-     width: 300px;
-     color: white;
-    background-color:#055151;
-     padding:15px 0;
-     font-family: molle;
-     /* font-family: "Edu AU VIC WA NT Hand", cursive; */
-     margin-top: 5px;
-     margin: auto;
-     margin-top: 5px;
-     text-align: center ;
-     transition: 0.5s;
-     font-weight: 100;
-     transition: 0.5s;
-    border-radius: 5px;
-     
- }
- .rahmat .head  {
-    font-size: 30px;
-    padding: 10px 0;
+     *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+       font-family: "Nanum Myeongjo", serif;
+       font-style: italic;
+       color: #fff;
+  }
+  
+   /* ====================================================================================
+                                   portfolio section
+           ===================================================================================*/
+           body{
+            
+            background-image: linear-gradient(rgba(255, 221, 153, 0.5),rgba(255, 221, 153, 0.5)) ,url(images/portfolio-bg.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center  ;
+              background-attachment: fixed;
+              color: #fff;
+              padding: 5rem 0;
+              color: #ffffffb6;
+             
+              height: 100vh;
+            }
+  .shari{
+    font-family: molle;
     text-align: center;
-    background-color: #042;
-    font-family: Arial, sans-serif;
- }
- .rahmat li:hover{ 
-     /* background-color: orange; */
-     background: linear-gradient(rgb(0, 255, 242),rgb(0, 0, 0),rgb(89, 17, 104));
- }
- .najat li{
-     background-color:seagreen;
- }
- .najat li:hover{
-     /* background-color: orange; */
-     background: linear-gradient(rgb(187, 0, 255),rgb(0, 0, 0),rgb(255, 255, 255));
- }
- .magfirat  li{
-    
-     background-color: #0d0420;
+    width: 250px;
+    height: 50px;
+    background-color:rgba(95, 158, 160, 0.571);
+    margin-top: 0px;
+    margin: auto; 
+    margin-bottom: 40px; 
+    box-shadow: 5px 6px 5px;
+    border-radius: 6px;
    
-
- }
-  
- .magfirat  li:hover{
-     /* background-color: orange; */
-     background: linear-gradient(rgba(255, 255, 255, 0.754),rgb(0, 0, 0),rgb(0, 225, 255));
- }
- .ramadan {
-    background-color:#042;
-    width: 300px;
+  }
+  .iftari{
+    text-align: center;
+    font-family: molle;
+    width: 250px;
+    height: 50px;
+    background-color:rgba(95, 158, 160, 0.571);
+    margin-top: 100px;
+     margin: auto; 
+     box-shadow: 5px 6px 5px;
+     border-radius: 6px;
+  }
+  .salat{
+    text-align: center;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(44, 93, 93);
+  }
+  .portfolio-filter{
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 15px 0;
-	  border-radius: 5px;
-     
-      
- }
- .ramadan .icon{
-    width: 80%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: space-between;
-  
+  }
+  .portfolio-section .mix-parent{
+    width: 320px;
+    margin: auto;
    
-    
- }
-  .icon-parent{
-      box-shadow: 01px 0px 20px 1px; 
-      padding: 10px 0;
+  
+  }
+  .portfolio-filter button{
+    margin: auto;
+  }
+  /* hgfhfffff */
+  .portfolio-section{
+    background-image: linear-gradient(rgba(255, 221, 153, 0.0),rgba(255, 221, 153, 0.0)) ,url(images/portfolio-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center ;
+      background-attachment: fixed;
       color: #fff;
-
-  }
- .ramadan .icon i{
-    color: #fff;
-    text-align: center;
-   
-    background-color: #055151;
-    /* width: 30px;
-    height: 30px; */
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 20px;
-    transition: 0.5s;
-   
- }
- .ramadan .icon i:hover{
-   background-color: #556;
-   transform: rotate(360deg);
- }
-/* clock code here */
-
-
-.clock{
-	margin: auto;
-    margin: auto;
-
-    
-}
- #container{
-   width: 350px;
-    text-align: center;
-    /* background-color: #161F32; */
-    background-color:#4d204c;
-   color: #fff;
-   margin: auto;
-   margin-top: 10px;
-   
-   box-shadow: 5px;
-   border-radius: 5px;
-	 position: relative;
-	 overflow:hidden;
-     /* display: flex;
-     justify-content: center; */
-   
-    /* font-family: molle; */
-  }
-  h1{
-
-     font-family: "Codystar", sans-serif;
-
-     /* font-family: "Edu AU VIC WA NT Hand", cursive; */
-     margin-top: 2rem;
-   
-    position: absolute;
-    top: 15px;
-   
-transform: translate(42%);
-/* 	  color:#8F6837; */
-  color:black ;
-	  
-	
-	  
-  }
-  #timer{
-    display: flex;
-  }
-  #container div{
-    background-color:#2d032b;
-    text-align: center;
-    border-radius: 5px;
-    
-   }
-   #container span{
-    background-color:coral;
-     margin-left: 5px; 
-     /* box-sizing: border-box;  */
-     width: 10px;
-    font-size: 40px;
-     color: #fff; 
-       text-align: center;
-      border-radius: 5px;
-      padding:3px 3px;
-      box-shadow: inset 2px 3px 5px;
-    
-     
-  
+      padding: 5rem 0;
+      color: #ffffffb6;
     }
   
-   #container .secoud-span{
+  
+  .portfolio-filter{
+    margin: 1.5rem 0;
+  }
+  .portfolio-section .box{
+    text-align: center;
+    margin-top: 0;
+    width: 105px;
+    
+    text-transform: capitalize;
+  
+    padding: 10px 0;
+    margin: 2px;
+    
+    background-color:hsla(222, 24%, 31%, 0.572);
+    
+   
+  }
+  .portfolio-section .box p{
+    text-align: center;
+    color: orange;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .border-text{
+    text-align:center;
     color: #fff;
-    background-color: crimson;
     display: block;
-    font-size: 16px;
-    margin-top: 4px;
-     width: 80px;
-     }
- .jui {
-        background-color: #4d204c;
-       display: grid;
-        grid-template-columns: repeat(4,1fr);
-        overflow: hidden;
-        height: 350px;
-        height:300px ;
-       
-    }
-     .jui code{
-        font-family: molle;
-        font-size: 18px;
-        opacity: 0.05;
-     color:#ffffffb8; 
-	    
-      
-
-    }
-.changeColor{
-        font-family: molle;
-        font-size: 18px;
-        opacity: 0.05;
-        color:yellow;
-      
-
-    }
-
-  .btn-head{
-        background-color: indigo;
-         color: lavenderblush;
-        width: 360px;
-        margin: auto;
-        margin-top: 10px;
-        padding: 5px 0;
-        border-radius: 5px;
-        
-    }
-    .change-color{
-        text-align: center;
-        margin-bottom: 30px;
-        margin-top: 5px;
-        
-     }
-     .change-color button{
-          /* color: #d1cece;  */
-          width: 350px;
-         border-radius: 5px;
-          width: 85px;
-         margin-top: 7px;
-         margin-left: 2px;
-         padding:3px 3px ;
-         border: none;
-         cursor: pointer;
-         /* box-shadow: 0px 0px 0px 1px; */
-         border: none;
-         text-transform: capitalize;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-         
-     }
-    
-     .red{
-        background:linear-gradient(rgb(255, 0, 0),rgb(255, 165, 0),rgb(255, 255, 0),
-        rgb(51, 255, 0),rgb(0, 47, 255),rgb(0, 0, 255),rgb(75, 0, 130),rgb(128, 0, 128));
-            padding:5px 5px;
-         color:black;
-     }
-     .black{
-         background-color: black;
-         color: white;
-     }
-     .green{
-         background-color: green;
-         color: white;
-     }
-     .yellow{
-         background-color: yellow;
-         color: black;
-       
-     }
-     .indigo{
-         background-color: indigo;
-         color: white;
-     }
-     .white{
-         background-color: #fff;
-         color: rgb(19, 19, 19);
-     }
-     .plus{
-        background-color: firebrick;
-        color: white;
-     }
-
-     .blue{
-        background-color: blue;
-        color: white;
-     }
-     .almond{
-        background-color:#efdecd;
-        color: white;
-     }
-     .amethyst{
-        background:linear-gradient(rgb(255, 0, 0),
-        rgb(51, 255, 0),rgb(0, 47, 255));
-            padding:5px 5px;
-            color:linear-gradient(rgb(255, 0, 0),
-            rgb(51, 255, 0),rgb(0, 47, 255));
-           
-     }
-     
-     .applegreen{
-        background-color:#8db600;
-        color: white;
-     }
-     .aqua{
-        background-color:aqua;
-        color: rgb(220, 150, 150);
-
-
-
-     }
-     .candypink{
-        background-color:#e4717a;
-        color: white;
-     }
-     .babyblue{
-        background-color:#89cff0;
-        color: white;
-     }
-     .blueviolet{
-        background-color:#8a2be2;
-        color: white;
-     }
-     .bistre{
-        background-color:#3d2b1f;
-        color: white;
-     }
-     .bluegray{
-        /* background-color:#6699cc; */
-        background-color:rgb(86, 86, 149);
-        color: white;
-     }
-     .phlox{
-        background-color:#df00ff;
-        color: white;
-     }
-     .teall{
-        background-color:tomato;
-        color: white;
-     }
-     .navy{
-        background-color:navy;
-        color:white;
-     }
-
-
-    
-
-    body{
-     background-color:darkcyan;
-     
-    }
-    
-/* infinity color */
-
-.container{
+    margin-left: 3px;
+    font-size: 15px;
+  }
+  .border{
+    text-align: left;
+    height: 1px;
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
+    /* margin-top: 20px; */
+    background-color: white;
+  
+  }
+  .button-parent{
+    /* margin-left:50%; */
+    text-align: center;
    
-#btn{
-    margin: 1rem 0;
-    /* padding: 2rem 3; */
-    padding: 10px 25px;
-    outline: none;
-    font-size: 18px;
-    border-radius: 5px;
-     background:linear-gradient(rgb(255, 0, 0),rgb(51, 255, 0),rgb(0, 47, 255));
+  
+  }
+  .role{
+    margin-bottom: 2rem;background-color: darkslategray;width: 24%; text-align: center; margin: auto;padding: 5px 0;
+  }
+  
+  
+  
+  
+  
+  
+  .portfolio-filter button{
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color:darkcyan;
+  padding: 5px 6px;
+  color: #fff;
+  /* border-radius: 5px 50px; */
+  border: 0;
+  margin:0 .5rem;
+  transition: 0.5s;
+  margin: auto;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  
+  
+  
+  
+  }
+  .forbidden:hover{
+    background-color: red;
+  
+  }
+  .portfolio-filter button:hover{
+  cursor: pointer;
+  color: #ffffffd1;
+  box-shadow: inset 0 0.3rem .5rem rgba(60, 71, 97, 0.6);
+  }
+  
+  
+  .portfolio-section .mixitup-control-active{
+  /* background-color: #e80a0a; */
+  background-color: #280528;
+  }
+  .salat-parent{
+    font-family: molle;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 320px;
+    margin: auto;
+  }
+  /* respossiveness */
+  @media only screen and (max-width: 300px){
+    .salat-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:auto;
+    width: 300px;
+    justify-content:space-between;
+    margin: auto;
+    margin-left: 7px;
     
-    color:#ffffff;
-    font-weight: 600;
-    text-shadow: #56fdef64;
-    cursor: pointer;
-
-}
+    }
+    .button-parent button{
+      font-size: 13px;
+    }
+    
+     
+    }
+    
+    
+  
+  
+  
+  
+  
